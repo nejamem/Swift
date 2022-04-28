@@ -1,0 +1,11 @@
+var ketchup = true 
+var mustard = false
+var mayo = true
+
+if (ketchup || mustard) && !mayo {
+  print("You've got hot dog")
+} else if ketchup && mayo && !mustard {
+  print("You've got burger")
+} else {
+  print("You have nothing")
+}
